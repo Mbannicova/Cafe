@@ -17,10 +17,3 @@ public class Application {
 
 }
 
-//Â "Application / main()" ńîçäŕňü äâĺ ÷ŕřęč:
-
-  //  cupA = ń 300 ml ěîëîęŕ
-    //cupB = ń 500 ml âîäű
-    //âűëčňü 50 ml ěîëîęŕ čç ÷ŕřęč "cupA"
-    //íŕëčňü ĺůĺ 50ml â ÷ŕřęó "cupB"
-    //âűâĺńňč â ęîíńîëü číôîđěŕöčţ î "cupA" č "cupB"
