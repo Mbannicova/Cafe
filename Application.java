@@ -7,8 +7,8 @@ public class Application {
 		kitchen.Cup cupA = new Cup ("Milk", 300);
 		kitchen.Cup cupB = new Cup ("Water", 500);
 		
-	    cupA.setLiquidVolume(250);
-	    cupB.setLiquidVolume(550);
+	    cupA.setLiquidVolume(cupA.getLiquidVolume() - 50);
+	    cupB.setLiquidVolume(cupB.getLiquidVolume() + 50);
 		
 	System.out.println(cupA.getLiquidName() + " - " + cupA.getLiquidVolume() + "ml");
 	System.out.println(cupB.getLiquidName()+ " - " + cupB.getLiquidVolume() + "ml");
@@ -17,10 +17,10 @@ public class Application {
 
 }
 
-//В "Application / main()" создать две чашки:
+//Г‚ "Application / main()" Е„Г®Г§Г¤Е•Е€Гј Г¤ГўДє Г·Е•Е™Д™ДЌ:
 
-  //  cupA = с 300 ml молока
-    //cupB = с 500 ml воды
-    //вылить 50 ml молока из чашки "cupA"
-    //налить еще 50ml в чашку "cupB"
-    //вывести в консоль информацию о "cupA" и "cupB"
+  //  cupA = Е„ 300 ml Д›Г®Г«Г®Д™Е•
+    //cupB = Е„ 500 ml ГўГ®Г¤Е±
+    //ГўЕ±Г«ДЌЕ€Гј 50 ml Д›Г®Г«Г®Д™Е• ДЌГ§ Г·Е•Е™Д™ДЌ "cupA"
+    //Г­Е•Г«ДЌЕ€Гј ДєЕЇДє 50ml Гў Г·Е•Е™Д™Гі "cupB"
+    //ГўЕ±ГўДєЕ„Е€ДЌ Гў Д™Г®Г­Е„Г®Г«Гј ДЌГ­ГґГ®Д‘Д›Е•Г¶ДЌЕЈ Г® "cupA" ДЌ "cupB"
